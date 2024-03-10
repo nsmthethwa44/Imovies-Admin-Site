@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title":" 365 Days",
+        "star": "./img/star_filled_20px.png",
+        "rating": "7.8",
+        "poster": "./img/365 Days.jpg"
+    },
+    {
+        "id": 2,
+        "title":"Deadpool",
+        "star": "./img/star_filled_20px.png",
+        "rating": "4.5",
+        "poster": "./img/Deadpool.jpg"
+    },  {
+        "id": 3,
+        "title":"A Quiet Place.",
+        "star": "./img/star_filled_20px.png",
+        "rating": "4.9",
+        "poster": "./img/A Quiet Place.jpg"
+    },  {
+        "id": 4,
+        "title":"Aquaman",
+        "star": "./img/star_filled_20px.png",
+        "rating": "5.5",
+        "poster": "./img/Aquaman.jpg"
+    },  {
+        "id": 5,
+        "title":"Birds Of Pray.",
+        "star": "./img/star_filled_20px.png",
+        "rating": "8.6",
+        "poster": "./img/Birds Of Pray.jpg"
+    },  {
+        "id": 6,
+        "title":"Crawl",
+        "star": "./img/star_filled_20px.png",
+        "rating": "2.3",
+        "poster": "./img/Crawl.jpg"
+    },  {
+        "id": 7,
+        "title":"Gemini Man",
+        "star": "./img/star_filled_20px.png",
+        "rating": "7.8",
+        "poster": "./img/Gemini Man.jpg"
+    },  {
+        "id": 8,
+        "title":"Isabelle.",
+        "star": "./img/star_filled_20px.png",
+        "rating": "5.6",
+        "poster": "./img/Isabelle.jpg"
+    },  {
+        "id": 9,
+        "title":"Gemini Man",
+        "star": "./img/star_filled_20px.png",
+        "rating": "7.9",
+        "poster": "./img/Gemini Man.jpg"
+    },  {
+        "id": 10,
+        "title":"Knives Out",
+        "star": "./img/star_filled_20px.png",
+        "rating": "7.7",
+        "poster": "./img/Knives Out.jpg"
+    }
+
+]

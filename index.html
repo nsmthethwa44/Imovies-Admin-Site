@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iMovies Dashboard</title>
+
+    <!-- link css  -->
+    <link rel="stylesheet" href="./style/all.css">
+    <link rel="stylesheet" href="./style/all.min.css">
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <!-- container  -->
+    <div class="container">
+
+        <!-- sideBar  -->
+        <div class="sideBar">
+            <div class="closeSideBar"><i class="fa-solid fa-xmark"></i></div>
+            <div class="containerBox">
+                <div class="logo">
+                    <!-- <img src="./img/clapperboard_50px.png" alt="" class="logoImg">
+                    <h2 class="logoText">Movies</h2> -->
+                    <i class="fa-solid fa-fire-flame-curved logoImg"></i>
+                </div>
+                <div class="menu">
+                    <ul class="nav">
+                        <span class="title">MENU</span>
+                        <li class="active"><i class="fa-solid fa-house-chimney"></i><span>Home</span></li>
+                        <li><i class="fa-solid fa-user-group"></i><span>Community</span></li>
+                        <li><i class="fa-solid fa-lightbulb"></i><span>Discover</span></li>
+                    </ul>
+                    <ul class="nav">
+                        <span class="title">LIBRARY</span>
+                        <li><i class="fa-solid fa-stopwatch"></i><span>Recent</span></li>
+                        <li><i class="fa-solid fa-download"></i><span>Downloads</span></li>
+                    </ul>
+                    <ul class="nav">
+                        <span class="title">GENERAL</span>
+                        <li><i class="fa-solid fa-gear"></i><span>Setting</span></li>
+                        <li><i class="fa-solid fa-right-from-bracket"></i><span>Logout</span></li>
+                    </ul>
+
+                    <a href="#" class="copyright">Create by: <span>Nkululeko Mthethwa</span><img src="./img/cool_20px.png" alt=""> | &copy;2024 | All Right Reserved.</a>
+                </div>
+            </div>
+
+            <div class="user">
+                <button class="darkMode"><i class="fa-solid fa-circle-half-stroke"></i></button>
+                <span class="mode">Theme</span>
+            </div>
+        </div>
+        <!-- end sideBar  -->
+
+        <!-- main  -->
+        <div class="main">
+
+             <!-- header  -->
+        <div class="header">
+            <div class="containerBox">
+                <div class="menuBox myUser"><i class="fa-solid fa-bars"></i></div>
+                <div class="searchIcon myUser"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="searchBox">
+                    <div class="closeIcon"><i class="fa-solid fa-xmark"></i></div>
+                    <div class="search">
+                        <img src="./img/search_20px.png" alt="" class="searchImg">
+                        <input type="text" class="searchInput" placeholder="Looking for...">
+                    </div>
+                    <div class="filter myUser"><i class="fa-solid fa-sliders"></i></div>
+                </div>
+            </div>
+
+            <div class="user">
+                <div class="notification myUser">
+                    <i class="fa-solid fa-bell"></i>
+                    <span class="dot"></span>
+                </div>
+                <div class="account myUser"><i class="fa-solid fa-user-large"></i></div>
+            </div>
+        </div>
+        <!-- end header  -->
+
+            <!-- filter btn  -->
+            <div class="btnFilter swiper mySwiper">
+                <div class="btnWrapper swiper-wrapper">
+                    <div class="btnFilterBox swiper-slide">
+                        <button class="btnGenre active " >Action</button>
+                    </div>
+                    <div class="btnFilterBox swiper-slide">
+                        <button class="btnGenre">Romantic</button>
+                    </div>
+                    <div class="btnFilterBox swiper-slide">
+                        <button class="btnGenre">Tv-Shows</button>
+                    </div>
+                    <div class="btnFilterBox swiper-slide">
+                        <button class="btnGenre">Talk Shows</button>
+                    </div>
+                    <div class="btnFilterBox swiper-slide">
+                        <button class="btnGenre">Drama</button>
+                    </div>
+                    <div class="btnFilterBox swiper-slide">
+                        <button class="btnGenre">Comedy</button>
+                    </div>
+                    <div class="btnFilterBox swiper-slide">
+                        <button class="btnGenre">Horror</button>
+                    </div>
+                    <div class="btnFilterBox swiper-slide">
+                        <button class="btnGenre">Documentary</button>
+                    </div>
+                </div>
+               
+            </div>
+
+            <div class="movieContainer">
+                <div class="movieContent dashboard">
+
+                    <div class="topBox">
+                        <div class="leftBox">
+                            <div class="imgBox changBox">
+                                <img src="./img/img-1.jpg" alt="" class="boxImg changeImg">
+                            </div>
+
+                            <div class="overlayContent">
+                                <div class="box text">
+                                    <h3>Awesome Name Lorem</h3>
+                                    <div class="button">
+                                        <a href="#"><button class="btn"><i class="fa-regular fa-circle-play"></i>Play Now</button></a>
+                                    </div>
+                                </div>
+                                <div class="box imageContent">
+                                    <div class="images">
+                                        <div class="imgBox"><img src="./img/img-5.jpg" alt=""></div>
+                                        <div class="imgBox"><img src="./img/img-6.jpg" alt=""></div>
+                                        <div class="imgBox"><img src="./img/img-7.jpg" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rightBox">
+                            <h3>Continue Watching</h3>
+                            <div class="box">
+                                <div class="boxImg"><img src="./img/img-2.jpg" alt=""></div>
+                                <div class="detailBox">
+                                    <p class="title">Lorem</p>
+                                    <span class="rating"><img src="./img/star_filled_20px.png" alt="">3.7</span>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="boxImg"><img src="./img/img-3.jpg" alt=""></div>
+                                <div class="detailBox">
+                                    <p class="title">Lorem lorem</p>
+                                    <span class="rating"><img src="./img/star_filled_20px.png" alt="">8.4</span>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="boxImg"><img src="./img/img-4.jpg" alt=""></div>
+                                <div class="detailBox">
+                                    <p class="title">Lorem ipsum</p>
+                                    <span class="rating"><img src="./img/star_filled_20px.png" alt="">4.5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="belowBox">
+                        <div class="textBox">
+                            <h3>Popular Movies</h3>
+                            <a href="#">See  More</a>
+                        </div>
+
+                        <div class="popularMovies swiper mySlide">
+                            <div class="popularWrapper swiper-wrapper">
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- end main  -->
+
+    </div>
+    <!-- end container  -->
+
+    <!-- link js  -->
+    <script src="./swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
